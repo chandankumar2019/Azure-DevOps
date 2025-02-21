@@ -1,0 +1,1 @@
+Create a vm(linux). You need to connect through ssh to that vm. Install any webserver on it and deploy a webpage as Software gurukulam using html:
