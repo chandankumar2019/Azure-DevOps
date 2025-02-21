@@ -10,6 +10,7 @@ How many types of Appa services.
 Appa service provide default domain.
 what is main advatage for cloud?
 > It is high scablity and high abability.
+montior and secury it is basically check health issues.(it is generanted the logs)
 Build is nothing but compiler the code, it is generate .DLL file
 artifact is nothing but Deployment file.
 >Deploy the means download the artifact & deploy the appa services.
@@ -28,3 +29,21 @@ Identity is a nothing but access to one service to another service.
 INbond is allow in going traffice 
 Outbond is allow otu going traffice.
 Web jobs means running back ground task.
+<-------------------------------------------------->
+How to create step by step process
+>Frist create Resources group
+>After that go to Appa service
+Runtime stack = .NET.8
+Operating System= windows
+Region = canda center
+Continuous deployment = enable
+Enable public access = on
+tags = name (env) value (dev) 
+Resource ( web app)
+go to resources
+Appa service editor
+Deployment center
+overview
+file scale up
+then Deployment center basic1
+overview  domain default id copy and past
