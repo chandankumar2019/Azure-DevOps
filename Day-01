@@ -1,1 +1,32 @@
 Deoloy a sample application in vm and give me the url:
+Sign in to the Azure Portal.
+
+Go to Virtual Machines and click Create > Azure Virtual Machine.
+
+Choose an appropriate Subscription and Resource Group.
+
+Provide a Virtual Machine Name and select an appropriate Region.
+
+Choose an image (e.g., Ubuntu Server 22.04 LTS or Windows Server 2022).
+
+Select the VM size based on your application requirements.
+
+Configure Administrator Account (username and password or SSH key for Linux).
+
+Allow inbound port HTTP (80) or Custom port (e.g., 8080) for web access.
+
+Click Review + Create and then Create.
+ssh username@your-vm-public-ip
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y apache2
+sudo systemctl start apache2
+sudo systemctl enable apache2
+cd /var/www/html
+sudo nano index.html
+<html>
+<head><title>Welcome to Azure VM</title></head>
+<body><h1>Hello, Azure World!</h1></body>
+</html>
+sudo systemctl restart apache2
+http://your-vm-public-ip
+yuotube video link=(https://youtu.be/irs2q7YefHA)
