@@ -1,0 +1,30 @@
+Appa Service:
+It is a fully manage platform for hosting web application.
+It is aplatform as a service, build and deploy for application. also provideted run time engoverment.
+How many types of Appa services.
+<>They are four types;
+>Web appa (.NET, Java, Python, PHP, Node.js, etc.)
+>static web appa (HTML, CSS, JavaScript)
+>web appa + Database ((like MySQL, PostgreSQL, or Azure SQL).
+>Wordpress on appa service( CMS (Content Management Systems), or e-commerce sites.)
+Appa service provide default domain.
+what is main advatage for cloud?
+> It is high scablity and high abability.
+Build is nothing but compiler the code, it is generate .DLL file
+artifact is nothing but Deployment file.
+>Deploy the means download the artifact & deploy the appa services.
+Active logs indecats who is login the appa services.
+>>Access control means to access for juinor level to senior level.
+How many types of application
+=>They are two types 
+1>Monolithical application (It is deploy enter the code at a time appa services )
+2>Microservice application ( It is divided by smaller one aplication divided into smaller application.)
+DEV( it is alocal testing)
+Production best enviroment means (User).
+Enviroment ariable means sercet data.
+configuration means change your version.
+Authentication  is the process of verifying the identity of a user, system, or device
+Identity is a nothing but access to one service to another service.
+INbond is allow in going traffice 
+Outbond is allow otu going traffice.
+Web jobs means running back ground task.
