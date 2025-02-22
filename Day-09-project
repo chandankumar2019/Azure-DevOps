@@ -3,4 +3,134 @@ Azure DevOps Automation refers to the process of automating software development
 An Azure DevOps CI/CD Pipeline Project is a complete end-to-end automation workflow for building, testing, and deploying applications using Azure DevOps Services.
 <-------------------------------------------------------------------->
 Step by step create process:
+<-------------------------------------------------------------------->
 Container Registry (ACR):  It is a fully managed private container registry service by Microsoft Azure. It is used to store, manage, and deploy container images and artifacts securely.
+<-------------------------------------------------------------------->
+Then create Azure DevOps Organization 
+<-------------------------------------------------------------------->
+create project
+go to project setting 
+service connection 
+After that select Docker Registry 
+Registry type (Azure container registry )
+Authentication Type (service prinicple)
+Sign in 
+Subscribtion
+Azure container registry (automatically come)
+Details >service connection name (automatically come)
+Security(wright symbool)
+save
+Ater that go to wright side corner click New service connection 
+Github
+next
+Authentication method (grant authorization)
+Qauth configuration (automaticaly come)
+authorize
+Details >service connection name (automaticaly come)
+security(wright symbool)
+save
+<--------------------------------------------------------------------------->
+Create build pipeline
+<---------------------------------------------------------------------------->
+Azure Devop protal
+Go to pipeline > pipelines
+Create pipe lines
+where is your code ( Github)
+selete your repository (Tetris-Game-App-pipeline)
+configure ( Docker build & pish images to azure container registry)
+Selete you azure subscribtion >AZure for student
+continue
+sign in
+
+docker > container registry (automaticaly come name)
+       >images name (Tetris-Game-App-pipeline)
+Dockerfile (no change)
+Validate and configure
+Save and run
+no any changes
+again click save and run
+Build and push completed
+<---------------------------------------->
+Go to Azure protal 
+<---------------------------------------->
+Go to container registry > then click yor registry name
+After that go to repsitory  > Images is push
+small ones are changes
+go to container registry > then click yor registry name
+Access key > Admin user >Enabled
+<---------------------------------------->
+Create App service:
+<---------------------------------------->
+Create 
+web app
+Resources group (select your resouces group)
+publish (Docker container)
+operating system (linux)
+Region (central india)
+pricing plan (Basic)
+Next Docker
+image source(Azure container registry)
+No changes any think 
+create 
+<---------------------------------------->
+Go to azure devOps protal (means organization cretae web pages)
+<---------------------------------------->
+Go to project
+pipelines
+Releases
+New pipelines
+Azure appa service Deployment >apply
+Artifacts > click Add
+Source type > Build
+project(automaticaly name come)
+source(build pipeline){automaticaly come name)
+Default version (lasted)
+sources aliash (already fix not changes any things)
+Add
+After that create artifacts one symbool are there >click for this symbol
+continuos deployment trigger >enabled
+Ater that 
+Stage 1 > task=click
+Azure subscrbtion(azure for student)
+Authorize
+Sigh in
+App type(web app for container)
+App service name (Tetris-Game-App-pipeline)
+Registry or namespace (name azure.io)
+Repository name(Tetris-Game-App-pipeline)
+save
+ok
+create relese
+not change anything
+create
+Release 1
+logs
+Deploy azure app service
+Go to azure app service >click you web service name
+configuration
+New application setting
+Name (websiteport)
+value(3000)
+ok 
+save
+continue
+go back Deploy azure app service 
+Lasi line (url code copy and past new tap)
+now tetris game 
+<---------------------------------------->
+Verifay CI/CD pipeline by making test commit
+<---------------------------------------->
+open azure organization pages
+pipeline
+Release
+Git bash connict
+ls
+nano tetris.js
+Search: Lets
+context.filestyle='green cut rename white'
+!qw;
+git add .
+git commit -m "change the directory"
+git push origin to main
+then go to release check automaticaly trigger
+check colour also change
