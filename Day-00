@@ -1,0 +1,16 @@
+How to create organization:
+Azure Portal login inside search Azure DevOps Organization.
+Click Frist one link
+Directory (Default Directory)
+Create new organization
+continue
+Name of Azure your DevOps organization (dev.azure.com/ anyname{software gurukulam})
+we'll host your project in (central us)
+Enter the capture you see 
+continue
+<--------------------------------------------------------->
+Create a project get a started 
+project name (any name)
+visibility 2 types 1>public
+                   2>private (max time chhose private procet)
+Create a project
