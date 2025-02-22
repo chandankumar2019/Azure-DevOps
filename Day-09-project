@@ -1,0 +1,6 @@
+Azure DevOps Automation or Azure DevOps CI/CD Pipeline Project:
+Azure DevOps Automation refers to the process of automating software development, deployment, and infrastructure management using Azure DevOps services. 
+An Azure DevOps CI/CD Pipeline Project is a complete end-to-end automation workflow for building, testing, and deploying applications using Azure DevOps Services.
+<-------------------------------------------------------------------->
+Step by step create process:
+Container Registry (ACR):  It is a fully managed private container registry service by Microsoft Azure. It is used to store, manage, and deploy container images and artifacts securely.
