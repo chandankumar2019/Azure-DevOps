@@ -1,1 +1,28 @@
 Create a stroage account and Fileshare:
+<------------------------------------------------------->
+           Storage Account
+<------------------------------------------------------->
+A Storage Account in cloud computing (especially in Azure) is a service that provides a secure, scalable, and highly available way to store data in the cloud.
+Key Features of a Storage Account
+✅ Scalability – Can handle massive amounts of data efficiently.
+✅ Security – Supports encryption, role-based access control (RBAC), and private endpoints.
+✅ Durability – Provides replication options like LRS, GRS, ZRS, and RA-GRS to prevent data loss.
+✅ Cost-Effective – Different pricing tiers based on usage and redundancy requirements.
+✅ Multi-Protocol Support – Works with REST APIs, SDKs, CLI, and PowerShell.
+<------------------------------------------------------->
+Types of Storage in a Storage Account
+<------------------------------------------------------->
+1️⃣ Blob Storage – Stores unstructured data like images, videos, and backups.
+2️⃣ File Storage – Provides fully managed cloud file shares (SMB/NFS).
+3️⃣ Queue Storage – Handles messaging between services asynchronously.
+4️⃣ Table Storage – NoSQL storage for structured data.
+5️⃣ Disk Storage – Used for virtual machine disks.
+<------------------------------------------------------->
+Replication Options in Azure Storage Account
+<------------------------------------------------------->
+🔹 LRS (Locally Redundant Storage) – Keeps three copies of data within a single data center.
+🔹 GRS (Geo-Redundant Storage) – Replicates data across different geographic regions.
+🔹 ZRS (Zone-Redundant Storage) – Stores copies across multiple availability zones.
+🔹 RA-GRS (Read-Access Geo-Redundant Storage) – Same as GRS but allows read access to the
+Structured Storage:>>> Stores data in a fixed format, like tables in a database (e.g., SQL, Excel). Easy to search and organize.
+Unstructured Storage: >>>Stores data without a predefined format, like images, videos, or documents (e.g., Blob Storage, AWS S3). Flexible but harder to search.
