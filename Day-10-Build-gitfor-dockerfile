@@ -1,0 +1,34 @@
+How to create 
+Frist open cmd
+mkdir <any name>
+cd <go to your name>
+git clone <https code for git hub>
+then go to the this pc
+user
+chand
+inside<your file name>
+inside your <repository name>
+countryportal.sin
+open visual studio 2022
+Release
+iis express
+solution countryportel.
+After that click countryportel
+Build success
+Go to Dockerfile (means this pc user inside inside go dockerfile is there)
+After that open visual studio code (means i am run terraform sehi visual open karibi)
+Terminal
+New terminal 
+Then command run
+    ls
+    cd .\api-projects\ (neans your directory name)
+    ls
+    cd .\SGcountryportal-man\
+    ls
+    clear
+    docker build -t chandprac1:latest .
+    ls
+   docker images
+   cls
+   docker run -d -p 8081:8080 --name chandhancon01 chandprac1:latest
+   docker ps -a
