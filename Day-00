@@ -14,3 +14,15 @@ project name (any name)
 visibility 2 types 1>public
                    2>private (max time chhose private procet)
 Create a project
+<--------------------------------------------------------->
+         What is Tenant ID
+<--------------------------------------------------------->
+A Tenant ID in Azure is a unique identifier (GUID) assigned to an Azure Active Directory (Azure AD) tenant. It helps identify and manage an organization’s Azure environment.
+<--------------------------------------------------------->
+           Subscription
+<--------------------------------------------------------->
+it is deploy and manage the cloud resources .
+<--------------------------------------------------------->
+      Resource Group 
+<--------------------------------------------------------->
+It is a container that holds multiple cloud resources.
