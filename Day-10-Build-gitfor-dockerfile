@@ -28,6 +28,7 @@ Then command run
     clear
     docker build -t chandprac1:latest .
     ls
+localhost:8081/swagger search out put is come
    docker images
    cls
    docker run -d -p 8081:8080 --name chandhancon01 chandprac1:latest
