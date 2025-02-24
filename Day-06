@@ -13,10 +13,17 @@ Key Features of a Storage Account
 Types of Storage in a Storage Account
 <------------------------------------------------------->
 1️⃣ Blob Storage – Stores unstructured data like images, videos, and backups.
+How many types of Blobs:
+They are THree stypes:
+1>Block blob:>Ant type of data> Images, video, file, etc(4.7tb store)
+2>Append Blob:>Ex:Logs (Logs in nothing but activity)
+3>Page Blob:>VHD's(8Tb)
 2️⃣ File Storage – Provides fully managed cloud file shares (SMB/NFS).
 3️⃣ Queue Storage – Handles messaging between services asynchronously.
 4️⃣ Table Storage – NoSQL storage for structured data.
 5️⃣ Disk Storage – Used for virtual machine disks.
+Managed Disk:>>Azure itself -->>Azure Disk-->>Ex:Pendrive
+UnManaged Disk:>>We need to manage-->>Storage Account
 <------------------------------------------------------->
 Replication Options in Azure Storage Account
 <------------------------------------------------------->
