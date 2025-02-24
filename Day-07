@@ -1,7 +1,0 @@
-<------------------------------------------------>
-      Create Key value:
-<------------------------------------------------>
-In Azure DevOps, a Key-Value concept is used to store and manage configuration settings, secrets, and environment-specific variables. 
-1>Azure DevOps Variables – Store pipeline-related configurations.
-2>Azure Key Vault – Securely store secrets, keys, and certificates.
-3>Variable Groups – Manage key-value pairs across multiple pipelines.

@@ -1,0 +1,39 @@
+<------------------------------------------------>
+      Create Key valut:
+<------------------------------------------------>
+To store confidential data, we use key valut.
+<------------------------------------------------>
+     Key Features of a Key Vault
+<------------------------------------------------>
+main three types are use 
+key
+secret
+certificate
+
+1>>Secret Management – Securely store passwords, API keys, database credentials, etc.
+2>>Key Management – Manage cryptographic keys (symmetric & asymmetric) for encryption and decryption.
+3>>Certificate Management – Securely store and manage SSL/TLS certificates.
+4>>Access Control – Uses role-based access control (RBAC) to restrict who can access the vault.
+5>>Logging & Auditing – Tracks access and usage of keys and secrets for security compliance.
+Pricing Tier means>>>A Pricing Tier refers to different levels of service offerings, each with varying features, limits, and costs.
+Permission model
+Azure role-based access control (recommended)
+Vault access policy
+Both models define how users, applications, and services can access secrets, keys, and certificates within the Key Vault.
+Resource access  >>>Resource Access in Azure refers to how different Azure services, applications, and users interact with other Azure resources securely and efficiently.
+Azure Virtual Machines (VMs) for authentication and deployment.
+Azure Resource Manager (ARM) for template-based deployments.
+Azure Disk Encryption for encrypting storage volumes.
+Hierarchy in Azure" – Understanding the structure of resources in Azure.
+Hierarchy of Azure Key Vault" – How Azure Key Vault manages secrets, keys, and certificates with access control.
+
+<------------------------------------------------>
+   Create process step by step
+<------------------------------------------------>
+Create resources
+Key
+
+
+
+
+
