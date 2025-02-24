@@ -33,3 +33,4 @@ localhost:8081/swagger search out put is come
    cls
    docker run -d -p 8081:8080 --name chandhancon01 chandprac1:latest
    docker ps -a
+localhost:8081/swagger
