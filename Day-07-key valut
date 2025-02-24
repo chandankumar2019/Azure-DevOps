@@ -31,7 +31,9 @@ Hierarchy of Azure Key Vault" – How Azure Key Vault manages secrets, keys, and
    Create process step by step
 <------------------------------------------------>
 Create resources
-Key
+Key valut
+Permission model(	Vault access policy)
+Access policies (user name select )
 
 
 
