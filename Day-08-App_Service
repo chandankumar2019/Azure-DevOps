@@ -8,6 +8,7 @@ How many types of Appa services.
 >web appa + Database ((like MySQL, PostgreSQL, or Azure SQL).
 >Wordpress on appa service( CMS (Content Management Systems), or e-commerce sites.)
 Appa service provide default domain.
+
 what is main advatage for cloud?
 > It is high scablity and high abability.
 montior and secury it is basically check health issues.(it is generanted the logs)
