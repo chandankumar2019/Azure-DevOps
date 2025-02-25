@@ -1,0 +1,16 @@
+How to connected Epic:
+Search (https://dev.azure.com/sgsg28260880/)
+New Project
+Name (any name)
+Visisbility (Private) 
+Create 
+Boards
+New work item 1>Epic
+              2>issue
+              3>Task
+Click Epic
+Enter title(Deploying .Net application for vs code)
+save
+Boards(Second number board click)
+New item (Deploying .Net application for vs code)
+Add to top
