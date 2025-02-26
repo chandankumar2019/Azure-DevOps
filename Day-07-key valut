@@ -13,6 +13,7 @@ certificate
 1>>Secret Management – Securely store passwords, API keys, database credentials, etc.
 2>>Key Management – Manage cryptographic keys (symmetric & asymmetric) for encryption and decryption.
 3>>Certificate Management – Securely store and manage SSL/TLS certificates.
+SSL (Secure Sockets Layer) / TLS (Transport Layer Security) are cryptographic protocols that provide secure communication over the internet.
 4>>Access Control – Uses role-based access control (RBAC) to restrict who can access the vault.
 5>>Logging & Auditing – Tracks access and usage of keys and secrets for security compliance.
 Pricing Tier means>>>A Pricing Tier refers to different levels of service offerings, each with varying features, limits, and costs.
