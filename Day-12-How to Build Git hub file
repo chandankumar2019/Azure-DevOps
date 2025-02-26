@@ -1,0 +1,49 @@
+<-------------------------------------->
+How to Build The Git hub repository 
+<-------------------------------------->
+First copy your repository (HTTPS) code
+Visual studio 2022 
+Clone the repository
+repository location (past your git hub http code)
+path (create one folder after that select )
+clone
+Right side 
+Github Action Below 
+suppose bookporal name click 
+Build
+Tool Below select (iis Express)
+Then open it new page (localhost:443/swagger{add})
+After that come viual studio page refresh 
+click your bookportal name
+publish
+folder
+next
+Create new folder
+folder location (past your new folder path)
+finsh
+publish
+Go to IIS (APP NEW APP)
+Sites 
+Add Websites
+site name (Sgbookportal or any name)
+physical path (your folder path)
+ok
+ok
+sites
+Application pools
+Add Application pools
+Name(Sgbookportalplan or any name)
+.NET Clear version (no managed code
+manage pipeline code(integrated)
+ok
+    {Sgbookportal
+    Add application
+    Select(your new sgbookportalplane name )
+     physical path (your frist SGbookportal )}
+SGportal
+Rightsides
+Binding
+Add
+Port(81)
+Host name(www.bookportal.com)
+ok
