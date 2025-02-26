@@ -15,6 +15,32 @@ visibility 2 types 1>public
                    2>private (max time chhose private procet)
 Create a project
 <--------------------------------------------------------->
+                   AZURE
+<--------------------------------------------------------->
+Azure is Microsoft's cloud platform that provides compute, storage, networking, AI, and DevOps services to build, deploy, and manage applications globally.
+BUILD>>>>>A build is the process of compiling and packaging code into a runnable application.
+COMPLING>>>>>Compiling is converting source code into machine-readable code
+PACKING>>>packaging is bundling the compiled code into a deployable format(ex.jar,war)
+JAR>>>A JAR file is a compressed package for Java classes and resources
+WAR>>A War file is used to package and deploy web applications.
+<--------------------------------------------------------->
+           Azure DevOps 
+<--------------------------------------------------------->
+Azure DevOps is a set of cloud-based tools and services from Microsoft that helps teams manage and automate the software development lifecycle (SDLC). It provides features for source control, CI/CD, infrastructure automation, testing, monitoring, and project management.
+Azure Repos – Git repositories for source control.
+Azure Pipelines – CI/CD automation for building, testing, and deploying applications.
+Azure Artifacts – Package management for storing and sharing dependencies.
+Azure Boards – Agile project tracking with Kanban boards and work items.
+Azure Test Plans – Testing tools for manual and automated testing.
+<--------------------------------------------------------->
+             Region
+<--------------------------------------------------------->
+An Azure Region is a geographical area that contains multiple data centers
+<--------------------------------------------------------->
+     Avability Zones
+<--------------------------------------------------------->
+Availability Zones are physically separate data centers within an Azure Region.
+<--------------------------------------------------------->
          What is Tenant ID
 <--------------------------------------------------------->
 A Tenant ID in Azure is a unique identifier (GUID) assigned to an Azure Active Directory (Azure AD) tenant. It helps identify and manage an organization’s Azure environment.
@@ -26,3 +52,28 @@ it is deploy and manage the cloud resources .
       Resource Group 
 <--------------------------------------------------------->
 It is a container that holds multiple cloud resources.
+<--------------------------------------------------------->
+           VNet(virtual Network)
+<--------------------------------------------------------->
+Azure Virtual Network (VNet) that allows resources to securely communicate with each other, the internet, and on-premises networks
+✔ Subnetting – Divides the VNet into smaller networks for better management.
+✔ Peering – Connects multiple VNets for seamless communication.
+✔ VPN Gateway – Securely connects on-premises networks to Azure.
+✔ Network Security Groups (NSGs) – Controls traffic with security rules.
+✔ Azure Bastion – Provides secure RDP/SSH access without public IPs.
+<--------------------------------------------------------->
+         Subnet
+<--------------------------------------------------------->
+A Subnet in Azure is a smaller network inside a Virtual Network (VNet) that helps organize and manage resources efficiently by dividing the IP address space. 
+<--------------------------------------------------------->
+            Ip Address
+<--------------------------------------------------------->
+An IP address is a unique numerical label assigned to a device on a network to identify and enable communication over the internet or a private network. 
+<--------------------------------------------------------->
+              CIDR
+<--------------------------------------------------------->
+CIDR (Classless Inter-Domain Routing) is a method for efficiently allocating IP addresses by using a slash (/) notation to define the network portion of an IP address (e.g., 192.168.1.0/24). It helps in subnetting and reducing IP wastage.
+
+
+
+
