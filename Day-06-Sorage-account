@@ -18,6 +18,7 @@ They are THree stypes:
 1>Block blob:>Ant type of data> Images, video, file, etc(4.7tb store)
 2>Append Blob:>Ex:Logs (Logs in nothing but activity)
 3>Page Blob:>VHD's(8Tb)
+logs>>It is a Activity.
 2️⃣ File Storage – Provides fully managed cloud file shares (SMB/NFS).
 3️⃣ Queue Storage – Handles messaging between services asynchronously.
 4️⃣ Table Storage – NoSQL storage for structured data.
@@ -28,6 +29,8 @@ UnManaged Disk:>>We need to manage-->>Storage Account
 Replication Options in Azure Storage Account
 <------------------------------------------------------->
 🔹 LRS (Locally Redundant Storage) – Keeps three copies of data within a single data center.
+what do you mean by redundant simple definition 
+Not or no longer needed or useful; unnecessary.
 🔹 GRS (Geo-Redundant Storage) – Replicates data across different geographic regions.
 🔹 ZRS (Zone-Redundant Storage) – Stores copies across multiple availability zones.
 🔹 RA-GRS (Read-Access Geo-Redundant Storage) – Same as GRS but allows read access to the
