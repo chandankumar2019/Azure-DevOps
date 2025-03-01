@@ -32,13 +32,14 @@ Hierarchy of Azure Key Vault" – How Azure Key Vault manages secrets, keys, and
    Create process step by step
 <------------------------------------------------>
 Create resources
+tags ( enviroment dev )
 Key valut
 Permission model(	Vault access policy)
 Access policies (user name select )
 Network
-public Acess (speic network)
-virtual network(
-+add virtual network
+public Acess (selected network)
+virtual network
++Add virtual network (add exit virtual network)
 Right side 
 Add Network
 virtual network (your vnet name)
@@ -50,12 +51,10 @@ Review+create
 create
 Settine 
 Networking (check it your networking)
-Access polices
-permission (key permission {all}, Secret permission {all}, certificate permission {all})
-Review and create
 Network
 firewall
 +Add your clint Ip address(app service ip{106.215.173.60})
+Apply
 update keywords
 key (means create key)
 set activation date (select click starting date and ending date selete)
