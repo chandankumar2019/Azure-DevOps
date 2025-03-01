@@ -37,7 +37,7 @@ Not or no longer needed or useful; unnecessary.
 Structured Storage:>>> Stores data in a fixed format, like tables in a database (e.g., SQL, Excel). Easy to search and organize.
 Unstructured Storage: >>>Stores data without a predefined format, like images, videos, or documents (e.g., Blob Storage, AWS S3). Flexible but harder to search.
 <------------------------------------------------------->
- 
+       How to create step  by step process:
 <------------------------------------------------------->
 Create Storage account
 Reduanty (LRS)
@@ -74,3 +74,14 @@ create
 go to This pc
 fileshare 
 click your photo link automaticaly show in your browser.
+Summery:
+<----------------------------->
+Create Storage acconut
+create Virtual machine
+Storage account inside re create file share 
+RDP connect inside (Windows powershell ISE)
+File share connect choice operating system windows and show crick click and copy the above path
+Go to windows powershell ISE past
+local pc check create one fileshare go to inside and create folder and folder inside create txt document 
+Go to Storage account fileshare upload any photo 
+After that go to local pc fileshare and click photo link automaticaly open your photo one brower.
