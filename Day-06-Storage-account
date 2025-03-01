@@ -36,3 +36,30 @@ Not or no longer needed or useful; unnecessary.
 🔹 RA-GRS (Read-Access Geo-Redundant Storage) – Same as GRS but allows read access to the
 Structured Storage:>>> Stores data in a fixed format, like tables in a database (e.g., SQL, Excel). Easy to search and organize.
 Unstructured Storage: >>>Stores data without a predefined format, like images, videos, or documents (e.g., Blob Storage, AWS S3). Flexible but harder to search.
+<------------------------------------------------------->
+ 
+<------------------------------------------------------->
+Create Storage account
+Reduanty (LRS)
+create
+Virtual machine 
+Review + Create
+Create
+Go to Storage account inside 
+Fileshare
+fileshare name(any name)
+create
+RDP
+open Virtual machine
+user anme
+password 
+Open
+Virtual amchine inside serach (windowse powershell ISE)
+Go to fileshare 
+connect
+then open wright side three os (select windows)
+click(show scrit)
+copy 
+Go to power shell ISE page (past)
+Go to your pc
+This pc
