@@ -23,6 +23,19 @@ COMPLING>>>>>Compiling is converting source code into machine-readable code
 PACKING>>>packaging is bundling the compiled code into a deployable format(ex.jar,war)
 JAR>>>A JAR file is a compressed package for Java classes and resources
 WAR>>A War file is used to package and deploy web applications.
+Deploy>>Deployment is the process of releasing and managing software or infrastructure in a specific environment for users to access and use.
+Types of Deployment
+Manual Deployment – Manually transferring and configuring the application.
+Automated Deployment – Using CI/CD pipelines (e.g., Jenkins, GitHub Actions) to automate the process.
+Rolling Deployment – Gradually replacing old versions with new ones to minimize downtime.
+Blue-Green Deployment – Running two environments (Blue & Green) and switching traffic to the new version.
+Canary Deployment – Releasing updates to a small subset of users before full deployment.
+Jenkins (CI/CD Automation)
+Docker (Containerization)
+Kubernetes (Orchestration)
+Terraform (Infrastructure as Code)
+AWS, Azure, GCP (Cloud Deployment)
+Managing>>It is refers to the process of controlling, organizing, and maintaining resources, systems, or operations to ensure efficiency, stability, and desired outcomes.
 <--------------------------------------------------------->
            Azure DevOps 
 <--------------------------------------------------------->
