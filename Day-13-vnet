@@ -60,6 +60,11 @@ Add
 Go to the virtual machine 
 copy public ip 
 open RDP (past public ip )
-
-
-
+<------------------------------------>
+ Summery
+<------------------------------------>
+Frist create vnet (default subnet name changes)
+Ten create Network security group
+Then virtual machine (add vent and subnet)
+Afetr that go to Nsg add Http, Https, Rdp and other port 
+That's it
