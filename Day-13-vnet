@@ -1,0 +1,65 @@
+
+https://softwaregurukulam11-my.sharepoint.com/:b:/g/personal/lokesh_softwaregurukulam_com/EblLE6hnq2ZBkg_DGeLkvN4B5WZG_G74wzOsr-kIQrec3A?e=2cd3Zi (link search google)
+Frist create Vnet
+Ip Address 
+default (only change name [default delete {subnet or any name])
+Tags
+demo nsgdemo virtualmachine 
+Review & create 
+create
+Network security group
+Tags
+demo nsgdemo 
+Review & create 
+create
+go to resources (Nsg)
+setting
+subnet
++ Associate
+Vnetwork (your vnet name)
+subnet name(your subnet name)
+ok
+After taht create virtual machine
+Network 
+Virtual network (your vnet name)
+subnet (your subnet name)
+Tags
+demo nsgdemo 
+Review & create 
+create
+Go to resources
+Then go to Network security group
++ Add
+Source
+Any
+Source port ranges
+*
+Destination
+Any
+Service
+HTTP
+////Destination port ranges
+80
+Protocol        (//---// means automaticaly acept )
+Any
+TCP
+UDP
+ICMPv4/////
+Action
+Allow
+Priority
+100
+Name
+AllowAnyHTTPInbound
+Description
+ Add
+Again same process follow to add HTTPs
+Add
+Again same process follow to add RDP
+Add
+Go to the virtual machine 
+copy public ip 
+open RDP (past public ip )
+
+
+
