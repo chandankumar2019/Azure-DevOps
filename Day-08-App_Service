@@ -28,7 +28,7 @@ configuration means change your version.
 Authentication  is the process of verifying the identity of a user, system, or device
 Identity is a nothing but access to one service to another service.
 INbond is allow in going traffice 
-Outbond is allow otu going traffice.
+Outbond is allow out going traffice.
 Web jobs means running back ground task.
 <-------------------------------------------------->
 How to create step by step process
@@ -45,7 +45,8 @@ go to resources
 Appa service editor
 Deployment center
 overview
-file scale up
-then Deployment center basic1
-overview  domain default id copy and past/swagger
+file scale up (Basic1)
+select
+overview 
+Default domain id copy and past/swagger
 After that build and deploy
