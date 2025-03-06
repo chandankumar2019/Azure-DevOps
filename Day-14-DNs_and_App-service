@@ -1,0 +1,41 @@
+Create App service
+Go to resources
+Go to google serach W3 school
+Html file copy and make one file 
+click file wright
+open with
+visual studio code
+copy
+Advance Tools
+Go
+Debug console
+CMD
+Site
+wwwroot
+Then cretae index.html (past) and save
+After that 
+go to resources
+Default domain copy and past 
+custom domain
++ Add custom domain
+Domain provider (All other domain services)
+TLS/SSL certificate (App service managemnet certificate)
+TLS/SSL type (SNI SSL)
+Domain (past your godaddy domain name)
+Hostname record type (CNAME Record select)
+EXport to CSV ( A, TXT two are create)
+Go to Godaddy 
+Add New record
+Type (A) Name (dnsdemo) value (EXport to CSV A vale copy & past godaddy there) TTL (1hour)
+Add New record
+Type (CNAME) Name(dnsdemo-domain) value (App service default domain copy and past)  TTL (1hour)
+save all recoreds
+dnsdemo create after that 
+Add New record
+Type (A) Name (@) value (EXport to CSV A vale copy & past godaddy there) TTL (1hour)
+Add New record
+Type (TXT) Name (asuid) value (EXport to CSV TXT vale copy & past godaddy there) TTL (1hour)
+Add New record 
+Type (CNAME) Name(app or any name) value (App service default domain copy and past)  TTL (1hour)
+save all recoreds
+Copy custon domain id search browser it will be come 
