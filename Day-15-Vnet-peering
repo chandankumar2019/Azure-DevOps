@@ -1,0 +1,25 @@
+<--------------------------------------------------------->
+      VNet peering create step by step process:
+<--------------------------------------------------------->
+Frist Virtual machine create:
+<--------------------------------------------------------->
+Create Virtual machine
+Basic (HTTP, RDP)
+Network 
+Virtual network(Default name changes vent01 or any name)
+subnet (Default name changes subnet01 or any name)
+review + create 
+create
+<--------------------------------------------------------->
+Second Virtual machine simillar to the frist one:
+<--------------------------------------------------------->
+Create Virtual machine
+Basic (HTTP, RDP)
+Network 
+Virtual network(Default name changes vent02 or any name)
+subnet (Default name changes subnet02 or any name)
+public ip (none)
+review + create 
+create
+Frist Vm connect to the RDE
+Frist RDP inside create RDP(This time private ip connect )
