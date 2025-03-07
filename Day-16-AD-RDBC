@@ -1,0 +1,35 @@
+>>>>>What is Azure Directory:
+Azure Active Directory (Azure AD) is a cloud-based identity and access management service from Microsoft. It helps organizations securely manage user identities and control access to applications, resources, and services in Azure, Microsoft 365, and third-party apps.
+>>>>>What is difference between AD & WD:
+>>>Active Directory (AD):
+A directory service developed by Microsoft for managing users, computers, and resources in a Windows network.
+WAAD
+>>>Windows Directory (WD)
+"Windows Directory" is not a specific Microsoft service but often refers to the file system directories used in Windows (like C:\Windows\System32).
+ADDS
+ADLS
+ADRMS
+>>>>>what is service Audience 
+IT Adminstator
+online custmor
+Application Developer
+>>>>>Azure active directory editions
+Azure active directory basic
+Azure active directory permimum1
+Azure active directory permimum2
+<---------------------------------------->
+ Step By step process create Azure Active Directory
+<---------------------------------------->
+Frist go to the Azure Active Directory 
+user 
++ New User
+Create New user
+Name (any name)
+user name(any name@emailid sender person)
+profile(Not configure)
+properties (Default)
+Directory role (user)>>>click here
+Directory role (Global adminstation)
+password (show rember it)
+ok 
+create user
