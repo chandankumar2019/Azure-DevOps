@@ -21,5 +21,21 @@ subnet (Default name changes subnet02 or any name)
 public ip (none)
 review + create 
 create
+Go to VNet 
+select Vnet01
+peering
+Add peering
+peering link name VNet01-to-VNet02
+Remote virtual network select VNet02
+Enable "Allow virtual network access"
+ok
+Go to VNet 
+select Vnet02
+peering
+Add peering
+peering link name VNet02-to-VNet01
+Remote virtual network select VNet01
+Enable "Allow virtual network access"
+ok
 Frist Vm connect to the RDE
 Frist RDP inside create RDP(This time private ip connect )
