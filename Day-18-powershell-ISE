@@ -1,0 +1,71 @@
+$psversionTable
+Get-Help
+Get-Help about*
+Get-command
+mkdir <directory name>
+rmdir <directory name> #delete command
+attrib +h <directory name>
+attrib -h <directory name>
+chkdsk
+Get-process 
+Get-process -id 19428
+Get-process 
+Get-Service
+Stop-Service XboxNetApiSvc 
+ #Get-process -id 19428
+ #Get-process 
+ #Get-Service
+ #Stop-Service XboxNetApiSvc 
+ #New-Item -Itemtype Directory -path D:\psTest
+ #New-Item -Itemtype file -path "D:\psTest\pstest1.txt"
+ #Set-Content -path "D:\psTest\pstest1.txt" -value "softwaregurukulam"
+ #get-Content -path "D:\psTest\pstest1.txt""D:\psTest\pstest1.txt"
+ #get-ChildItem "D:\psTest\pstest1.txt"
+ #Remove-Item -path "D:\psTest\pstest1.txt"
+ #$var
+ #$var="chandan"
+ #write-Host $var
+ $number = 10
+ if($number -gt 5)
+ {
+ write-Host "Number is grater than 5"
+ }
+ elseif ($number -eq 5)
+ {
+ write-Host "Number is equal to 5"
+ }
+ else
+ {
+ write-Host "Number is less than 5"
+ }
+$foldername = "psTestScript"
+$folderpath = join-path -path "D:\Test" -childpath $flodername 
+if(-not(Test-path -path $foldername ))
+{
+New-Item -ItemType directory -path $flodername | out-null
+write-Host "create a folder: $flodername"
+}
+else{
+Write-Host "Folder already exist: $flodername"
+}
+for($i=1: $i -le :$i++)
+{
+
+}
+
+
+power shell cmdlet structure
+Use Tap in ps and Help
+About file(Get-Help about*)
+What is module
+what is aliases
+what is pipelining
+Basic powershell command & simulation
+Future of powershell
+cmdlet vs powershell
+simulation cmdlet
+some other ps command
+powershell scripting
+what is Get -process
+what is difference between "declaration" and "installation"
+
