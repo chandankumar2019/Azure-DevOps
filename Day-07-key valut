@@ -34,7 +34,7 @@ Hierarchy of Azure Key Vault" – How Azure Key Vault manages secrets, keys, and
 Create resources
 tags ( enviroment dev )
 Key valut
-Permission model(	Vault access policy)
+Permission model(Vault access policy)
 Access policies (user name select )
 Network
 public Acess (selected network)
