@@ -1,0 +1,28 @@
+AZ CLI —> Azure Command line interface
+——————————————————————
+What is the diff between/w “imperative way and Declarative way”
+
+az login
+az account show
+az account set —subscription (id/Name)
+az group create -l (location) -n (Rg-name)
+az group delete -n (Rg-Name)
+az group list —output=table
+————————————————————————
+az appservice plan create -g (rgname) -l (location) -n (Name of the Appservice plan)
+az appservice plan update -n (Name of the Appservice plan) —sku (Plan-Name) #{F1, B1}
+az appservice plan delete -n (Name of the Appservice plan)
+az appservice list -output=table
+———————————————————————
+az webapp create -g (RG-Name) -p (Plan_Name) -n (Name of the AP-svc-name)
+az webapp delete -g (RG-Name) -n (Name0ftheWebAPP)
+az webapp list —output=table
+————————————————————————
+az storage account create -g (RG-Name) -n (Name) -l (location) —sku (LRS-Names)
+az storage container create -n (Name of the Conatiner) —account-name (SA-Name)
+az storage container delete -n (Name of the Conatiner) —account-name (SA-Name)
+az storage account delete -g (RG-Name) -n (Name)
+————————————————————————
+az key vault create -g (RG-Name) -l (location) -n (Name)
+az keyvault list
+az key vault delete -g (RG-Name) -n (Name of our keyvault)
