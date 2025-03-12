@@ -18,8 +18,8 @@ az webapp create -g (RG-Name) -p (Plan_Name) -n (Name of the AP-svc-name)
 az webapp delete -g (RG-Name) -n (Name0ftheWebAPP)
 az webapp list —output=table
 ————————————————————————
-az storage account create -g (RG-Name) -n (Name) -l (location) —sku (LRS-Names)
-az storage container create -n (Name of the Conatiner) —account-name (SA-Name)
+az storage account create -g (RG-Name) -n (Name) -l (location) —sku (LRS-Names) {standed_LRS}
+az storage container create -n (Name of the Conatiner) —account-name (SA-Name){any anme}
 az storage container delete -n (Name of the Conatiner) —account-name (SA-Name)
 az storage account delete -g (RG-Name) -n (Name)
 ————————————————————————
