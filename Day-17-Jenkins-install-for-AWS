@@ -12,12 +12,15 @@ sudo yum install jenkins
 sudo systemctl daemon-reload
 
 3>>sudo dnf install java-17-amazon-corretto-deve
+     or
+sudo dnf install -y java-17-amazon-corretto
+
 (jadi java install na hue tebe ehi command run kariba)
 >>>sudo dnf install -y yum-utils
 sudo yum-config-manager --add-repo https://rpm.corretto.aws/corretto.repo
 
 4>> sudo yum install jenkins -y
-
+        
 5>> sudo systemctl enable jenkins
 sudo systemctl start jenkins
 
