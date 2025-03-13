@@ -11,7 +11,10 @@ sudo yum install fontconfig java-17-openjdk
 sudo yum install jenkins
 sudo systemctl daemon-reload
 
-3>>sudo dnf install java-17-amazon-corretto-devel
+3>>sudo dnf install java-17-amazon-corretto-deve
+(jadi java install na hue tebe ehi command run kariba)
+>>>sudo dnf install -y yum-utils
+sudo yum-config-manager --add-repo https://rpm.corretto.aws/corretto.repo
 
 4>> sudo yum install jenkins -y
 
