@@ -30,3 +30,28 @@ sudo nano index.html
 sudo systemctl restart apache2
 http://your-vm-public-ip
 yuotube video link=(https://youtu.be/irs2q7YefHA)
+<------------------------------------------------->
+     Azure Interview Question
+<------------------------------------------------->
+what is cloud computing?
+what are types of cloud /deployment models ?
+what are the services in azure cloud ?
+what is datacenter?
+what is region?
+what is availability zones?
+what is the difference between IAAS,PAAS,SAAS?
+what is SDLC?
+what is waterfall methodology?
+what is agile methodology?
+what is DevOps?
+Azure Repos?
+Azure Boards?
+Azure Pipelines?
+Azure Test plans?
+Azure Artifacts?
+what is Epic?
+what is Work item?
+what is sprint?
+what is backlog?
+what is Kanban board?
+
