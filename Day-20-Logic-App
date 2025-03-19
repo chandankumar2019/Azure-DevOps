@@ -19,6 +19,12 @@ Use pre-built connectors (e.g., Outlook, Blob Storage, Teams).
 No need for writing complex backend code.
 Provides drag-and-drop UI to design workflows.
 Scalable & Cost-effective (pay only for execution).
+Example (With Logic Apps)
+✅ In Azure Logic Apps, you can create a workflow like:
+Trigger: When a new email arrives in Outlook.
+Action 1: Extract attachment from the email.
+Action 2: Upload it to Azure Blob Storage.
+Action 3: Send a message to Microsoft Teams.
 <----------------------------------------->
  How to create step by step process
 <----------------------------------------->
