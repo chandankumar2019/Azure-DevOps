@@ -1,0 +1,24 @@
+What is a Logic App?
+<------------------------->
+A Logic App is a cloud-based service provided by Microsoft Azure that allows you to automate workflows and integrate various services without writing extensive code.
+Automate Workflows – Eliminate manual processes by automating repetitive tasks.
+Integrate Applications & Services – Connect different cloud/on-premises services like SharePoint, SQL Server, Salesforce, Office 365, and third-party APIs.
+Before Logic Apps (Traditional Approach)
+<----------------------------------------->
+Developers had to write custom code to integrate different services.
+Used C#, Python, Java, or PowerShell to handle automation.
+Without Logic Apps, you would:
+<----------------------------------------->
+Write a custom script to connect to Outlook API.
+Extract and save the attachment using Azure Blob Storage API.
+Call Microsoft Teams API to send a notification.
+Maintain security/authentication manually.
+With Logic Apps (Modern Approach)
+<----------------------------------------->
+Use pre-built connectors (e.g., Outlook, Blob Storage, Teams).
+No need for writing complex backend code.
+Provides drag-and-drop UI to design workflows.
+Scalable & Cost-effective (pay only for execution).
+<----------------------------------------->
+ How to create step by step process
+<----------------------------------------->
