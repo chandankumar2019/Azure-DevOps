@@ -28,3 +28,29 @@ Action 3: Send a message to Microsoft Teams.
 <----------------------------------------->
  How to create step by step process
 <----------------------------------------->
+Create Logic app
+Workflow Service Plan
+select
+Review + create 
+create
+workflows
++Add
+workflows name (any name)
+state type (slete frist one)
+create
+click your workflow name go to inside
+Designer
+add trigger {search(https request)}
+in app
+when http request is recieve below + symbol click
+Add an action{search(outlook.com)}
+see more
+send an email
+signing in (click)
+parameter under writting any things
+To (specific email id)
+subject (codebites youtube test email or any things)
+Body (inside wrighting any thing or hii what are you doing)
+importance (normal)
+save
+take a workflow url and search a browser
