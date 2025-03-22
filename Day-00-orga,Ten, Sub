@@ -75,6 +75,15 @@ Azure Virtual Network (VNet) that allows resources to securely communicate with 
 ✔ Network Security Groups (NSGs) – Controls traffic with security rules.
 ✔ Azure Bastion – Provides secure RDP/SSH access without public IPs.
 <--------------------------------------------------------->
+What is a Virtual Machine (VM)
+<--------------------------------------------------------->
+A Virtual Machine (VM) is a software-based simulation of a physical computer. It runs an operating system (OS) and applications just like a physical machine but is hosted on a physical server or cloud environment.
+<--------------------------------------------------------->
+          Types of Virtual Machines
+<--------------------------------------------------------->
+1>>.System Virtual Machine – Provides a full OS environment (e.g., Windows, Linux, macOS).
+2>>.Process Virtual Machine – Runs a single application (e.g., Java Virtual Machine (JVM)).
+<--------------------------------------------------------->
          Subnet
 <--------------------------------------------------------->
 A Subnet in Azure is a smaller network inside a Virtual Network (VNet) that helps organize and manage resources efficiently by dividing the IP address space. 
