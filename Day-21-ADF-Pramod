@@ -1,0 +1,80 @@
+<------------------------------------------------->
+             Create process
+<------------------------------------------------->
+Frist create Resource Group
+After that create Three Data Factory
+1>>>.
+
+
+
+
+
+
+
+
+Go to browser search https://dev.azure.com/evoketechnologies/
+create +New Project
+project name (any name)
+private
+Advance
+version control (git) Work item process (Agile)
+create
+Go to your frist Azure Data Factory name (ADF-rawden-Dev or any name )
+overview 
+Azure Data Factory studio (lunch studio)
+pencil symbol or Author (click)
+Data Factory (set of code repository)
+Repository type (Azure  DevOps Git)
+Microsoft Entra ID
+Evoke Technologies Private Limited (e1c5d9ee-a951-451e-8432-642c23d40071)
+Azure DevOps organization name* (evoketechnologies)
+Project name*(ADF-project OR YOUR project name)
+Repository name*(ADF-REPO Or any name)
+Collaboration branch*(master)
+Publish branch*(adf_publish)
+Root folder(/)
+Apply
+go to frist Data Factory name(ADF-rawdan-Dev)
+master branch (+New branch)
+create
+pipeline (+New pipeline)
+Activity (search copy Data)
+source (+New)
+Azure blob storage 
+continue
+Binary
+Name (Binary1)
+Linked service*(New)
+Account selection method
+.From Azure subscription
+Azure subscription
+Storage account name*(your frist storage account name)
+Test connection(To linked service)
+create
+ok
+source (+open)
+Browse
+click your (mysourcefile1 or any name)
+ok
+Back to pipeline
+Go to Sink
++New
+Azure blob storage 
+continue
+Binary2
+continue
+Linked service*(+new)
+Account selection method
+.From Azure subscription
+Azure subscription(select all)
+Storage account name*(your second storageaccount name put here)
+Test connection
+.To linked service
+create 
+ok
+ok
+sink
+open
+Browse
+click your second container name
+ok
