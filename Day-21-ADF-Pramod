@@ -2,16 +2,34 @@
              Create process
 <------------------------------------------------->
 Frist create Resource Group
-After that create Three Data Factory
-1>>>.
-
-
-
-
-
-
-
-
+After that create Three Data Factory:
+<------------------------------------------------->
+1>>>.Go to Data factory
+name (AAF-DEV Or any name)
+resource group (your resource group name)
+create
+2>>>.Go to Data factory
+name (AF-UAT Or any name)
+resource group (your resource group name)
+create
+3>>>.Go to Data factory
+name (ADAF-prod Or any name)
+resource group (your resource group name)
+create
+After that create Two storage account:
+<------------------------------------------------->
+1>>.Go to storage account
+resource group(your resource group name)
+name(any name)
+performance (Standard)
+Access tier (Hot)
+click->Review+create->create
+2>>..Go to storage account
+resource group(your resource group name)
+name(any name)
+performance (Standard)
+Access tier (Hot)
+click->Review+create->create
 Go to browser search https://dev.azure.com/evoketechnologies/
 create +New Project
 project name (any name)
@@ -78,3 +96,95 @@ open
 Browse
 click your second container name
 ok
+Debug
+validate 
+save
+Go to your (Dev) Data Factory inside
+feature branch (create pull request)
+Title (completed feature1)
+create
+Approve
+complete
+master branch
+pulish
+ok
+After that go to ADF-repo
+master
++New 
+file(any name or ci-cd.ps1)
+ci-cd.ps1(google search https://docs.microsoft.com/en-us/azure/data-factory/continuous-integration-deployment)
+after that copy powershell code past ci-cd.ps1 content
+commit
+commit
+Now create release pipeline
+select a templat
+empty job
+stage name(UAT)
++Add an artifact
+Azure repo
+Project (your project name)
+source(your repo)
+Default branch (adf_publish)
+source alish(_adf_publish_source)
+Add
+Add another artifact
+Azure repo
+Project (your project name)
+source(your repo)
+Default branch (master)
+source alish(_adf_master_source)
+Add
+Then go to UAT
+Agent job (+)
+go to wright side search (Azure powershell)
+Add
+Disply name (Stop Trigger)
+script path (ci-cd.ps1)
+copy and clone for Stop Trigger
+second name (clean resource and start trigger)
+Agent job (+)
+go to wright side search (Arm template deployment )
+Add
+Azure resource manager
+subscription
+location(central india)
+Template(Arm template)
+Template parameter (Arm template)
+override template parameter(go to storage account inside setting->Acess key->copy key and connect setting and past)
+save
+Edit
+_adf_publish_source(click)
+Git_adf_publish_source(enable)
+Branch filter(adf_publish)
+save (this is continous pipeline trigger)
+ok
+Go to your (Dev) Data Factory inside
+feature-1 branch
+General
+Name (copy Data1 update1)
+save
+create pull request
+Title (create new feature)
+create
+Approve
+complete
+complete merge
+master branch
+publish
+ok
+go to Azure portal (click your project name automaticaly show UAT means trigger)
+go to pipeline
+UAT click and clone
+stage name (prod)
+save 
+click prod name(beacuse some changes)
+clean resource start trigger 
+script Argument (some change)
+save
+create a release
+create a new release
+create (This is automaticaly trigger for public branch)
+sucess
+Go to (Third Data factory or prod)
+refresh
+pipeline which was at 0 will become 1.
