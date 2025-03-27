@@ -10,9 +10,6 @@ GitHub
 GitLab
 Bitbucket
 Azure Repos (part of Azure DevOps)
-
-
-
 <--------------------------------------------------->
        Step By step Create process:
 <--------------------------------------------------->
@@ -41,3 +38,18 @@ Agent pool(azure pipeline)
 Agent Specification(your requried your choice)
 click pipeline 
 save & queue
+<--------------------------------------------------->
+            Release pipeline
+<--------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
