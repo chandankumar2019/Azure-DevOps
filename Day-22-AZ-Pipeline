@@ -1,0 +1,43 @@
+<---------------------------------------------------------->
+                  Build pipeline
+<---------------------------------------------------------->
+A pipeline is a series of automated steps that take code from development to deployment.
+A repo (short for repository) is a storage location where code, files, and version history are kept, typically using Git.
+Types of Repos:
+Local Repository – A repo on your personal machine.
+Remote Repository – A shared repo hosted on platforms like:
+GitHub
+GitLab
+Bitbucket
+Azure Repos (part of Azure DevOps)
+
+
+
+<--------------------------------------------------->
+       Step By step Create process:
+<--------------------------------------------------->
+Frist Go to the (The link https://dev.azure.com/arunbudala03/ oran Azure DevOps Organization URL)
+create new project
+project name(any name)
+visiblity (private)
+create
+pipelines
+create pipelines
+How to create Branch
+frist create repo 
+Then create Branch
+click (Use the classic editor to create a pipeline without YAML)
+Select a source(Azure repository git)
+Team project(automaticaly come tour project name)
+Repository(automaticaly name come)
+Default branch for manual and scheduled builds(select your branch name)
+continue
+search (suppose your requied you search deployment propose or This project required .Net)
++ click
+.Net core 
+Add
+click (pipeline)
+Agent pool(azure pipeline)
+Agent Specification(your requried your choice)
+click pipeline 
+save & queue
