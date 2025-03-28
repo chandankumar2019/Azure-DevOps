@@ -41,15 +41,46 @@ save & queue
 <--------------------------------------------------->
             Release pipeline
 <--------------------------------------------------->
+A Release Pipeline is a workflow in CI/CD (Continuous Integration/Continuous Deployment) that automates the process of deploying applications to different environments (e.g., Dev, Test, Staging, and Production).
 
 
-
-
-
-
-
-
-
+<--------------------------------------------------->
+    Step By step Create Release pipeline process:
+<--------------------------------------------------->
+pipelines
+create pipelines
+where is your code(Azure repo git)click
+(Select a repository)Before you create Repo
+             How to create repo 
+<--------------------------------------------------->
+Frist create new project
+Go inside 
+click(project setting)
+Repository
++creat 
+Repository type(Git)
+Repository name *(any name)
+create
+Configure your pipeline(select your requiredment)
+save and run
+ok
+Go to Releases
+Creat Release
+create
+Edit
+pipeline (Add)
+Task (you choice your stage name)
+variable 
+pipeline variable
++Add
+name(any name) value (any value)
+save 
+ok
+variable group inside go access promission are also there
+scope
+Variable group scope(2 types)
+1>>Release
+2>>stage
 
 
 
