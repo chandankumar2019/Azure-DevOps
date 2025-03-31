@@ -1,0 +1,29 @@
+<------------------------------------------------------------>
+      How to create EC2 Docker NOde-App in RDS:
+<------------------------------------------------------------>
+Frist go to the RDS (Database)
+Create Database
+Choose a database creation method(Standard create)
+Engine options(MySQL)
+Edition(MySQL Community)
+Engine version(choice any version)
+Templates(free tier)
+Credentials Settings=>Master username=>(admin)
+Credentials management(self management)
+Auto generate password=>Master password(your choice password)
+Burstable classes (includes t classes)(db.t4g.micro)
+Storage=>Storage type(General Purpose SSD (gp2))
+Allocated storage(20)
+Connectivity=>Compute resource(Don’t connect to an EC2 compute resource)
+vpc & subnet (default)
+Public access(yes)
+VPC security group (firewall){Create new}
+New VPC security group name(any name or mysql)
+Availability Zone(you choice)
+Tags(it is not important thats why i am not writting any thing)
+Database authentication(Password authentication)
+Create Database
+After that go to Ec2 instance 
+create Ec2 instance
+Ec2 instance connect and install docker
+docker pull philippaul/node-mysql-app:02(this command run means images create)
