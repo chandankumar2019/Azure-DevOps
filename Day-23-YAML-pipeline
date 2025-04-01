@@ -53,3 +53,30 @@ path(/your pasth is automatic come)
 Review
 Run
 https://dev.azure.com/arunbudala03/ADF-Project/_build/results?buildId=8&view=logs&j=a314f22c-0d8d-5f4e-2e5a-7023d7141778&t=afcbd69d-6218-5d12-27f7-cd8c790f2eca&l=13
+<----------------------------------------------------------->
+           What is Artifacts:
+<----------------------------------------------------------->
+Azure Artifacts is a service in Azure DevOps that provides package management for various types of artifacts. It allows teams to create, host, and share NuGet, npm, Maven, Python, and Universal Packages in private and public feeds.
+
+<----------------------------------------------------------->
+          How To create Artifacts:
+<----------------------------------------------------------->
+Go to project inside
+Artifacts
++ Create Feed
+Name(any name)
+Visibility(your azure devOps name)
+Upstream sources(not click)
+Scope(selete frist one or project name)
+create
+go to wright side setting
+Retention policies(click-Enable package retention)
+Maximum number of versions per package(5 or your choice)
+Days to keep recently downloaded packages(24 or 30 or your choice)
+save
+Go to permission 
+click your name (means Azure name)
+Add user/Group->click
+Assign role(Feed reader or Feed owner)
+Save
+
