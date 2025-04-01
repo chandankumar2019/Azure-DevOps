@@ -79,4 +79,18 @@ click your name (means Azure name)
 Add user/Group->click
 Assign role(Feed reader or Feed owner)
 Save
-
+<----------------------------------------------------------->
+Infrastructure as Code (IaC) in Azure DevOps & ARM Template:
+<----------------------------------------------------------->
+Go to Azure DevOps
+create one new Project
+After that go to repo-->file
+Then create +New Repository
+Repository type(Git)
+Repository name *(any name)
+create
+After that go to repository inside wright side(click three douct-New-File)
+Any name(google search Simple YAML File and past)
+commit 
+commit
+After that copy the arm template and past->Run
