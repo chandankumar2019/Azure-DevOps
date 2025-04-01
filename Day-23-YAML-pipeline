@@ -1,1 +1,54 @@
+What is YAML Pipeline:
+An Azure YAML Pipeline is a CI/CD (Continuous Integration and Continuous Deployment) pipeline in Azure DevOps defined using YAML syntax. It automates building, testing, and deploying applications.
+         TRIGGER:
+<------------------------->
+The trigger section defines the events or conditions that will trigger the exution of your pipeline.Trigger can be based on specific branch, tags, or even schedules.
+       Variable:
+<------------------------->
+Store values that can be reused throughout the pipeline, such as environment variable, credentials and configuration setting.
+       Stages:
+<------------------------->
+Stages represent the major phases of your CI/CD process. Each stage can contain one or more jobs.
+       Jobs:
+<------------------------->
+Jobs represent the individual units of work within a stage.Each job can consists of one or more steps, defining the tasks to be executed.
+jobs can run in parallel or sequentially, depending on your requirement.
+ The key characteristics of a YAML file:
+<----------------------------------------------------------->
+Human-Readable – YAML is designed to be easy to read and write.
 
+Indentation-Based Structure – Uses indentation (spaces, not tabs) to define structure.
+
+Key-Value Pairs – Data is represented using key: value pairs.
+
+Lists and Sequences – Supports lists using - notation.
+
+Scalability – Can represent complex configurations, such as nested dictionaries and multi-line strings.
+
+Data Serialization – Commonly used for configuration files and data exchange.
+
+No Quoting Required – Strings don’t need to be quoted unless they contain special characters.
+
+<----------------------------------------------------------->
+       How to create step by step Process:
+<----------------------------------------------------------->
+Go to Azure DevOps
+create one new Project
+After that go to repo-->file
+Then create +New Repository
+Repository type(Git)
+Repository name *(any name)
+create
+After that go to repository inside wright side(click three douct-New-File)
+Any name(google search Simple YAML File and past)
+commit 
+commit
+Go to pipelines
+pipelines
+Where is your code?(Azure repository git)
+Select a repository(your repository name select)
+Configure your pipeline(Existing Azure pipelines YAML pipelines)
+Branch(Master)
+path(/your pasth is automatic come)
+Review
+Run
