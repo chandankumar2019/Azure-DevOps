@@ -1,0 +1,18 @@
+Creating a Creating a Self-Hosted Agent & Agent Pool in Azure DevOps
+Azure DevOps provides self-hosted agents as an alternative to Microsoft-hosted agents, allowing teams to run builds and deployments on their own infrastructure. Below is a step-by-step guide to setting up self-hosted agents and agent pools.
+
+<-------------------------------------------------------->
+           Create step by step Process:
+<-------------------------------------------------------->
+Frist go to New project
+Create 
+go inside project setting
+Agent pools
+Add pools
+Pool to link(New)
+Pool type(self-hosted or any name)
+Name(any name)
+create
+Go to self-hosted or any name
+Go to Agent 
+New agent
