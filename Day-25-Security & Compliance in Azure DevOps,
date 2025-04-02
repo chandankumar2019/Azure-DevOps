@@ -1,0 +1,31 @@
+Security & Compliance in Azure DevOps
+Security and compliance in Azure DevOps refer to the set of practices, tools, and policies designed to protect software development processes, ensure regulatory compliance, and secure code, pipelines, and infrastructure.
+
+<-------------------------------------------------------->
+            Create Step By Step Process:
+<-------------------------------------------------------->
+Frist go to Azure DevOps 
+Organization seeting
+Microsoft Entra 
+click(connected Directory)
+connect
+Go to Azure protal
+Microsoft Enter ID
+Users 
+New users
+invite external user
+Basic
+Email(your azure devOps gmail.id )
+Assignment
++Add role((Azure DevOps Adminstation)
+Create New User
+User principal name(any name)
+click->Review+invite->invite
+After that 
+go to your project inside
+project setting 
+pipelines->setting
+one see how many days runs delete and everything
+pipelines under 
+service connection
+your are see and pratice purpose
