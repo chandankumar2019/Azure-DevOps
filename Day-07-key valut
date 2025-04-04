@@ -6,16 +6,23 @@ To store confidential data, we use key valut.
      what is confidential data?
 <------------------------------------------------>
 Confidential data refers to any information that is sensitive, private, or restricted, meaning it should only be accessed by authorized individuals or groups. 
+key feature of Key Valut:
+Personal Information
+Financial Information
+Business Data
+Healthcare Data
+Employee Records
+Government & Military Data
 <------------------------------------------------>
      Key Features of a Key Vault
 <------------------------------------------------>
-main three types are use 
+main three types are use:
 key
 secret
 certificate
 
-1>>Secret Management – Securely store passwords, API keys, database credentials, etc.
-2>>Key Management – Manage cryptographic keys (symmetric & asymmetric) for encryption and decryption.
+1>>Key Management – Manage cryptographic keys (symmetric & asymmetric) for encryption and decryption.
+2>>Secret Management – Securely store passwords, API keys, database credentials, etc.
 3>>Certificate Management – Securely store and manage SSL/TLS certificates.
 SSL (Secure Sockets Layer) / TLS (Transport Layer Security) are cryptographic protocols that provide secure communication over the internet.
 4>>Access Control – Uses role-based access control (RBAC) to restrict who can access the vault.
