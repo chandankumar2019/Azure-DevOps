@@ -1,0 +1,102 @@
+<---------------------------------------------------------->
+        What is Azure Docker:
+<---------------------------------------------------------->
+Docker is a open source container it is 
+It allows you to build, package, and deploy applications as lightweight, portable containers in Azure environments.
+
+ Key Azure Services for Docker
+1️⃣ Azure Container Registry (ACR)
+A private Docker registry to store and manage Docker container images.
+
+Similar to Docker Hub, but hosted in Azure.
+
+Supports build, push, and pull operations for container images.
+
+2️⃣ Azure Container Instances (ACI)
+A serverless container service that runs Docker containers without managing VMs.
+
+Ideal for quick, isolated workloads like batch processing, API endpoints, or microservices.
+
+3️⃣ Azure Kubernetes Service (AKS)
+A managed Kubernetes service in Azure to orchestrate Docker containers at scale.
+
+Helps in deploying, scaling, and managing containerized applications.
+
+4️⃣ Azure App Service (Container Support)
+Enables direct deployment of Docker containers to App Service.
+
+Supports automatic scaling and CI/CD from Azure DevOps, GitHub, or Docker Hub.
+
+🔹 How Docker Works in Azure?
+1️⃣ Build your application into a Docker image using a Dockerfile.
+2️⃣ Push the image to Azure Container Registry (ACR).
+3️⃣ Deploy the image to ACI, AKS, or Azure App Service for execution.
+
+<---------------------------------------------------------->
+          Create Stpe By Step Process:
+<---------------------------------------------------------->
+Frist go to Azure DevOps
+Create +New project
+create
+Go to Repo
+Import a repository->click(import)
+clone url (copy git hub repository https code and past [todoapp-docker])
+import
+Go to file inside
+Wright side three douct click->New-> file->New file name(any name)
+create
+FROM node:18-alpine AS installer
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+FROM nginx:latest AS deployer
+COPY --from=installer /app/build /usr/share/nginx/html
+commit
+commit
+Go to Azure protal (search Container registries)
+create
+Basic{Pricing plan(Basic)}
+Click->review+create->create
+go to resource
+setting
+Click(Access key)
+Admin user (wright click)
+Go to pipelines
+Create pipelines
+Where is your code?(Azure Repos git)
+Select a repository(your project name or Select a repository)
+Configure your pipeline(Docker build and push second click)
+continue
+container registry(your registry name)
+validate and configuration
+steps: (under writing)
+wright side click (Show Assientece)
+search (Azure CLI)
+click (Azure cli)
+Azure Resource Manager connection(your azure subscription id)
+click (Authorize)
+Script Type(Shell)
+Script Location(inline script)
+Script Path(az acr login --name=$(containerRegistry)  )
+Add
+Again search (Azure cli)
+Azure Resource Manager connection(your azure subscription id)
+Script Type(Shell)
+Script Location(inline script)
+Inline Script(  az container create \
+  --name mycontainerregistry001 \
+  --resource-group My-Resourcesgroup \
+  --image mycontainerregistry001.azurecr.io/azuredocker:latest \
+  --registry-login-server mycontainerregistry001.azurecr.io \
+  --registry-username mycontainerregistry001 \
+  --registry-password 'vs7GrSYl5AzxeCUtRMgVsH6woFTYGr9/ASsyec3alv+ACRCu+Zhb' \
+  --dns-name-label aci-demo-arunbudala03 \
+  --ports 80)
+Add
+save and run
+save and run
+
+
+
