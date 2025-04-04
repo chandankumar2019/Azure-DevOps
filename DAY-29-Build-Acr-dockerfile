@@ -1,0 +1,58 @@
+Create step by step process:
+frist create Container registry
+creta 
+go to resources
+Access key
+click Admin user
+After that go to Azure DevOps
+create New project
+Then go to Azure pipeline 
+click classice editor
+select source (git hub)
+repository name(chandankumar2019/docker-hello-world-flask )
+Default branch (main)
+continue
+Select a template(Docker container)
+Build an image
+Azure subscription(ServiceConnection_manual) #it is create so big process
+Azure Container Registry(your container name)
+Action(Build an image)
+Docker File(dockre file click three douct )
+Image Name(image-$(Build.Repository.Name):$(Build.BuildId))
+Go to push an image
+Azure subscription(ServiceConnection_manual) #it is create so big process
+Azure Container Registry(your container name)
+Action(Push an image)
+Image Name(image-$(Build.Repository.Name):$(Build.BuildId))
+click Build pipeline
+Agent Specification(ubuntu-latest)
+save & queue
+save & queue
+Now create App service
+Publish(container)
+Operating System(Linux)
+Linux Plan (Central India)(create new one)
+container
+Image Source(Azure Container Registry)
+Authentication(Admin credentials)
+image (Automatice come)
+tag(Automatice come number come or 24)
+click->Review+create->create
+Go to resources
+setting
+configuration
+General setting
+Always on (on)
+Save
+continue
+overview
+browse(Hello, world! This is flask app(v-2.0.11).)
+log stream 
+After that go to Azure DevOps (Click three douct {Edit pipeline})
+click Agent job 1 
+search (Azure web app container)
+Add
+Azure subscription(ServiceConnection_Manual)
+App name(automaticalt come your app service name)
+image name (avinacrr.azurecr.io/eea8Q~Kb7_THR7VkAoWR3X_qgOCO8hqOio7.JbaT)
+
