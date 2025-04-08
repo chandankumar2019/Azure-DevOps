@@ -1,0 +1,88 @@
+Deploy Application from GitHub to Azure App Service via Azure DevOps
+<----------------------------------------------------------->
+          How to create step by Step process
+<----------------------------------------------------------->
+ 1: Clone Code from GitHub
+Go to your desired GitHub repository.
+Click the green Code button.
+Copy the HTTPS URL.
+Open Git Bash or Command Prompt in your local system.
+Run the following command:
+git clone https://github.com/<username>/<repository>.git
+git clone https://github.com/softwaregurukulamdevops/SGorganizationportal.git
+ 2: Create a Build Pipeline in Azure DevOps
+Login to Azure DevOps.
+Select your project.
+Navigate to Pipelines > Create Pipeline.
+Choose GitHub as the source.
+Select your cloned repository.
+Choose YAML or Starter Pipeline.
+Paste the following YAML (example for Node.js):
+
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-22.04'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '8.0.x'   # ✅ Use .NET 8 SDK here
+    installationPath: $(Agent.ToolsDirectory)/dotnet
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'restore'
+    projects: '**/*.sln'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '**/*.sln'
+    arguments: '--configuration $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: true
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+ 3: Create Azure App Service
+Go to Azure Portal.
+Search for App Services and click Create.
+Fill in the required details:
+Resource Group
+App Name
+Runtime stack (Node.js/.NET/etc.)
+Region
+Click Review + Create then Create.
+ 4: Connect Azure DevOps to Azure (Service Connection)
+Go to Azure DevOps > Project Settings > Service Connections.
+Click New Service Connection > Azure Resource Manager > Next.
+Choose Service Principal (automatic).
+Authenticate and select your subscription and resource group.
+Name the connection, e.g., ServiceConnection_manual, and click Save.
+After that go to Azure DevOps
+pipelines
+Release 
++New
+Create New Releases pipeline
+Azure app service deployment
+Apply
+click stage one
+Azure subscription(name subscpition)
+App service name(automatic come your service name)
+Deploy Azure App service 
+App Service type(automatic come)
+Package or folder(click three douct go to exact location)
+save
